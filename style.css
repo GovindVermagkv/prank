@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+}
+body{
+    background-image: url("lovepg.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+.red{
+    background-color: orange;
+    height: 70px;
+}
+.green{
+    background-color: green;
+    height: 70px;
+}
+.text{
+    margin-top: 10px;
+    align-items: center;
+    height: 60px;
+}
+
+.center2{
+    /* text-align: left; */
+    margin: 20px;
+}
+.inputbox{
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+}
+.center2 input{
+    margin: 20px 0px;
+    font-size: 45px;
+}
+
+ button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: .7s;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: red;
+}
+
+
+
+.popbox{
+    height: fit-content;
+    padding: 50px;
+    align-items: center;
+    display: none;
+
+}
+.popbox img{
+    width: 600px;
+    height:500px;
+}
+.wish,.wish2{
+    margin-bottom: 50px;
+    color: white;
+}
+
+p{
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 50px;
+    color: red;
+}
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .popbox img{
+        width: 300px;
+        height:300px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width: 350px) {
+
+    .popbox img{
+        width: 200px;
+        height:200px;
+    }
+    .text{
+        font-size: 15px;
+    }
+
+    
+}
